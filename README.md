@@ -45,3 +45,21 @@ public class Foo
     private MayBeValue<Boolean> baz;
 }
 ```
+
+## Supported JDK versions
+
+JDK 8 or newer.
+
+## Documentation
+
+Clone this repository, move to the project directory and execute following command in your terminal:
+
+```shell
+gradle javadoc
+```
+
+The javadoc will be generated in `build/docs/javadoc` directory.
+
+## License
+
+[MIT](./LICENSE)

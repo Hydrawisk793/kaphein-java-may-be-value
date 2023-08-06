@@ -35,3 +35,7 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 artifacts {
 	archives javadocJar, sourcesJar
 }
+
+signing {
+	sign configurations.archives
+}
